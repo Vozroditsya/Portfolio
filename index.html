@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ivan Silva - Portfolio</title>
+  <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="portfolio__navigationMenu">
+    <nav class="portfolio__nav" id="portfolio-nav">
+      <ul class="portfolio__navigationMenu--list">
+        <a id="boton_aboutMe" href="#about_me">About me</a>
+        <a id="boton_projects" href="#projects">Projects</a>
+        <a id="boton_workExperience" href="#work_experience">Work experience</a>
+        <a id="boton_skills" href="#skills">Skills</a>
+        <a id="boton_education" href="#education">Education</a>
+      </ul>
+    </nav>
+  </div>
+  <div class="portfolio__information" data-bs-spy="scroll" data-bs-target="#portfolio-nav" data-bs-offset="0" tabindex="0">
+    <section class="portfolio__information--aboutMe" id="about_me">
+      <h1>About me</h1>
+      <p>
+        I'm a student of systems at the NordEast National University in Argentina (UNNE).
+        I like coding and learning new things about programming and technology. 
+        <br>Recently, I'am mostly interested about modeling database structure and SQL
+      </p>
+      <ul>
+        <li><img src="./assets/img/avatar.png" alt="person icon"> Ivan Silva</li>
+        <li><img src="./assets/img/smartphone.png" alt="phone icon"> +54 15 3756-435531</li>
+        <li><img src="./assets/img/email.png" alt=""> ivan.silva04599@gmail.com</li>
+        <li><img src="./assets/img/github.png" alt="github icon"><a href="https://github.com/Vozroditsya"> Github account</a></li>
+      </ul>
+    </section>
+    <section class="portfolio__information--projects" id="projects">
+      <h1>Projects</h1>
+    </section>
+    <section class="portfolio__information--workExperience" id="work_experience">
+      <h1>Work experience</h1>
+      <p>There's absolutetly nothing :(</p>
+    </section>
+    <section class="portfolio__information--skills" id="skills">
+      <h1>Skills</h1>
+      <p>
+        HTML, CSS, Javascript, Codeigniter, React.js (learning), C, Scrum <br>
+        Terribly bad at UI design and color scheme as you can see
+      </p>
+    </section>
+    <section class="portfolio__information--education" id="education">
+      <h1>Education</h1>
+      <ol>
+        <li>Constantly learning as an autodidact</li>
+        <li>Currently asisting to college - Systems degree</li>
+        <li>Middle education complete</li>
+      </ol>
+    </section>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
