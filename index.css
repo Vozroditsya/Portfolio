@@ -1,6 +1,6 @@
 
 body {
-  background: linear-gradient(to top, #37393A, #77B6EA);
+  background: linear-gradient(to top, #470ff4, #ce6d8b);
   text-align: justify;
 }
 
@@ -20,6 +20,7 @@ body a:hover{
 .portfolio__nav {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .portfolio__navigationMenu {
@@ -33,7 +34,7 @@ body a:hover{
   font-size: 1.4rem;
   list-style-type: none;
   overflow: hidden;
-  background-color: #D6C9C9;
+  background-color: #c9859f;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -47,12 +48,12 @@ body a:hover{
 }
 
 .portfolio__navigationMenu--list a:hover {
-  background-color: #C7D3DD;
+  background-color: #d698b0;
 }
 
 .portfolio__information {
   width: 60%;
-  background-color: #E8EEF2;
+  background-color: #8789df;
   font-size: 1.2rem;
   font-family: 'Raleway', sans-serif;
   padding: 5vh;
